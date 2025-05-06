@@ -9,7 +9,10 @@ anyhow.workspace = true
 chrono = "0.4"
 fake = { version = "2.10.0", features = ["dummy"] }
 gpui.workspace = true
-gpui-component = { git = "https://github.com/longbridge/gpui-component.git", features = [
+#gpui-component = { git = "https://github.com/longbridge/gpui-component.git", features = [
+#    "webview",
+#] }
+gpui-component = { git = "https://github.com/stormasm/gpui-component-ui.git", features = [
     "webview",
 ] }
 #gpui-component = { workspace = true, features = ["webview"] }
