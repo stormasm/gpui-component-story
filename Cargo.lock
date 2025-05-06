@@ -2771,38 +2771,6 @@ dependencies = [
 [[package]]
 name = "gpui-component"
 version = "0.1.0"
-dependencies = [
- "anyhow",
- "chrono",
- "futures-util",
- "gpui",
- "html5ever 0.27.0",
- "image",
- "indoc",
- "itertools 0.13.0",
- "markdown",
- "markup5ever_rcdom",
- "minify-html",
- "once_cell",
- "paste",
- "regex",
- "resvg",
- "rust-i18n",
- "schemars",
- "serde",
- "serde_json",
- "smallvec",
- "smol 1.3.0",
- "syntect",
- "unicode-segmentation",
- "usvg",
- "uuid",
- "wry",
-]
-
-[[package]]
-name = "gpui-component"
-version = "0.1.0"
 source = "git+https://github.com/longbridge/gpui-component.git#e530af9b51a01bead9a8587bc00f7d7d54d7e2ac"
 dependencies = [
  "anyhow",
@@ -3308,12 +3276,6 @@ dependencies = [
  "hashbrown 0.15.2",
  "serde",
 ]
-
-[[package]]
-name = "indoc"
-version = "2.0.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b248f5224d1d606005e02c97f5aa4e88eeb230488bcc03bc9ca4d7991399f2b5"
 
 [[package]]
 name = "inout"
@@ -6514,7 +6476,7 @@ dependencies = [
  "chrono",
  "fake",
  "gpui",
- "gpui-component 0.1.0 (git+https://github.com/longbridge/gpui-component.git)",
+ "gpui-component",
  "gtk",
  "rand 0.8.5",
  "raw-window-handle",
